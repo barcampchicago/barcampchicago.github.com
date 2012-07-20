@@ -3,6 +3,7 @@
 }
 
 .fadeline {
+    float: right;
     width: 1px;
     min-height: 100px;
     background: rgb(255,255,255); /* Old browsers */
