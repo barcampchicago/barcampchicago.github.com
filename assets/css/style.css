@@ -41,5 +41,10 @@ hr.soften {
 }
 
 .social-icons {
+    margin-top: 4px;
     float: right;
+}
+
+.social-icons img {
+    padding-right: 10px;
 }
