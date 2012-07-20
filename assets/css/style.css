@@ -16,3 +16,35 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 
 }
+
+.masthead {
+    margin-bottom: 15px;
+}
+
+.masthead img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-register {
+    margin-top: 27px;
+    font-size: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.soften {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    margin-top: 4px;
+    float: right;
+}
+
+.social-icons img {
+    padding-right: 10px;
+}
