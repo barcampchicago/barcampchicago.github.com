@@ -17,6 +17,10 @@
 
 }
 
+.masthead {
+    margin-bottom: 15px;
+}
+
 .masthead img {
     display: block;
     margin-left: auto;
@@ -25,4 +29,5 @@
 
 hr.soften {
     margin: 10px;
+    margin-bottom: 30px;
 }
