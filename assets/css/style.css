@@ -4186,7 +4186,7 @@ a.badge:hover {
 .fadeline {
     float: right;
     width: 1px;
-    min-height: 100px;
+    min-height: 180px;
     background: rgb(255,255,255); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(255,255,255,1) 5%, rgba(170,170,170,1) 50%, rgba(255,255,255,1) 95%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,rgba(255,255,255,1)), color-stop(50%,rgba(170,170,170,1)), color-stop(95%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
