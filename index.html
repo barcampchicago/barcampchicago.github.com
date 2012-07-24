@@ -23,7 +23,7 @@
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-offset="50">
 
 
   <!-- Navbar
@@ -156,11 +156,7 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-          $('body').attr('data-spy', 'scroll').attr('data-target', '#navbar').attr('data-offset', '50');
           $('#navbar').scrollspy();
-          
-          // Love hacks
-          //$('#navbar li:last').removeClass('active');
 
       });
     </script>
