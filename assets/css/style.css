@@ -4167,6 +4167,9 @@ a.badge:hover {
   visibility: hidden;
 }
 
+.top3 .span4 {
+    padding-right: 10px;
+}
 
 .top3 .span4 h3 {
     text-align: center;
