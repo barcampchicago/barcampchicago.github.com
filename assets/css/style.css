@@ -4167,7 +4167,7 @@ a.badge:hover {
   visibility: hidden;
 }
 
-.top3 .span4 {
+.top3 .span4 .blocktext{
     padding-right: 10px;
 }
 
