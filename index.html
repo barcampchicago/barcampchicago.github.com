@@ -102,6 +102,13 @@ please submit it to our talk
 <a href="https://www.google.com/moderator/#14/e=1fd70a">proposals</a> so others can
 have an idea of what talks to expect.</p>
         </div>
+        <div class="span12 section" id="news">
+          <h2>News</h2>
+          <div id="newsblock">
+            Loading ...
+          </div>
+        </div>
+
       </div>
 
         
@@ -137,6 +144,7 @@ have an idea of what talks to expect.</p>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
     <script src="assets/js/application.js"></script>
+    <script src="assets/js/jquery.tumblr.js"></script>
 
     <!-- Analytics -->
     <script type="text/javascript">
@@ -165,7 +173,12 @@ have an idea of what talks to expect.</p>
               $($(this).attr('href'))[0].scrollIntoView();
               scrollBy(0, -offset);
           });
-
+        $('#newsblock')
+            .tumblr({
+                url:        'http://barcampchicago.tumblr.com/',
+                pagination: '#pagination',
+                loading:    '#loading'
+            });
       });
     </script>
 
